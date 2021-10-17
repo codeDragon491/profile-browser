@@ -6,9 +6,7 @@ import Profiles from './profiles/Index';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Profiles/>
-      </header>
+      <Profiles/>
     </div>
   );
 }
