@@ -1,3 +1,7 @@
+# Idea
+
+The idea was to create a profile browser similar to this: https://codesandbox.io/s/mytinder-forked-xgkui?file=/src/components/CardBoard.js, which is built using the react-swipe-card dependency, but my goal was to make it from scratch. However due to that I had to get my head around React again, I couldn´t achieve to implement the full feature, e.g the transition on the card when you swipe.
+
 # Getting Started with Profile Browser
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
