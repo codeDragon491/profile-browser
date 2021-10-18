@@ -11,8 +11,6 @@
     overflow: hidden;
     background-color: var(--brand-teal);
 }
-
-
 .card {
     width: 320px;
     height: 320px;
@@ -25,4 +23,22 @@
     background-position: center;
     cursor: pointer;
     transform: translateX(-50%) translateY(-50%) scale(0.95);
+}
+
+.title, .subtitle {
+    font-family: var(--brand-font-secondary);
+    position: absolute;
+    bottom: -75px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    line-height: 140%;
+}
+.title {
+  width: 100%;
+  font-size: 28px;
+  font-family: var(--brand-font-secondary-sb);
+}
+.subtitle {
+    bottom: -105px;
+    font-size: 24px;
 }

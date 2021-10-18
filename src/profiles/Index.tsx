@@ -37,6 +37,7 @@ function Profiles() {
     } else {
         return (
             <div id="board">
+            <h1 className="heading-1">Profiles</h1>
             {profiles.map(profile => ( 
                 <Profile key={profile.id.value} profile={profile} parentCallback={callback}/>
             ))}

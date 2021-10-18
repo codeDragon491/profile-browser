@@ -34,8 +34,9 @@ function Profile(props: any) {
   })
   return (
     <div>
-      <h1 className="heading-1">{name}</h1>
       <div ref={cardRef} className="card" style={backgroundImage}>
+      <div className="title">{name}</div>
+      <div className="subtitle">{props.profile.dob.age}</div>
       </div>
     </div>
   )

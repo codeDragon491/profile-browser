@@ -1,13 +1,26 @@
 @font-face {
   font-family: "Recoleta Medium";
-  src: url("./fonts/Recoleta-Medium.woff") format("woff"),;
+  src: url("./fonts/Recoleta-Medium.woff") format("woff");
 }
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("./fonts/ProximaNova-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ProximaNova Semibold";
+  src: url("./fonts/ProximaNova-Semibold.woff") format("woff");
+}
+
 
 :root {
   --brand-teal: #e1f9f9;
   --brand-text: #273447;
   --white: #ffffff;
-  --brand-font-primary: 'Recoleta Medium','Times New Roman',sans-serif;
+  --brand-font-primary: 'Recoleta Medium', 'Times New Roman', sans-serif;
+  --brand-font-secondary: 'Proxima Nova Regular', sans-serif;
+  --brand-font-secondary-sb: 'ProximaNova Semibold', sans-serif;
 }
 
 
