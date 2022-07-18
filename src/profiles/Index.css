@@ -11,42 +11,46 @@
     overflow: hidden;
     background-color: var(--brand-teal);
 }
-.card {
-    width: 320px;
-    height: 320px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    border-radius: 50%;
-    background-color: var(--white);
-    cursor: pointer;
-    transform: translateX(-50%) translateY(-50%) scale(0.95);
+.card-container {
+  position: absolute;
+  width: 320px;
+  height: 320px;
+  top: 50%;
+  left: 50%;
+  transform: scale(0.95);
+  margin: -160px 0 0 -160px;
 }
 .card {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--white);
+  cursor: pointer;
   overflow: hidden;
 }
 .profile {
   position: absolute;
-  width: 320px;
-  height: 320px;
+  width: inherit;
+  height: inherit;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
 }
+.text-wrapper {
+  position: absolute;
+  top: 374px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+}
 .title, .subtitle {
-    font-family: var(--brand-font-secondary);
-    position: absolute;
-    bottom: -75px;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    line-height: 140%;
+  font-family: var(--brand-font-secondary);
+  line-height: 140%;
 }
 .title {
-  width: 100%;
   font-size: 28px;
   font-family: var(--brand-font-secondary-sb);
 }
 .subtitle {
-    bottom: -105px;
-    font-size: 24px;
+  font-size: 24px;
 }

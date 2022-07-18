@@ -81,11 +81,13 @@ function Profile(props: any) {
     }
   })
   return (
-    <div>
+    <div className="card-container">
       <div className="card">
-      <div ref={cardRef} className="profile" style={backgroundImage}></div>
-      <div className="title">{name}</div>
-      <div className="subtitle">{props.profile.dob.age}</div>
+        <div ref={cardRef} className="profile" style={backgroundImage}></div>
+      </div>
+      <div className="text-wrapper">
+        <div className="title">{name}</div>
+        <div className="subtitle">{props.profile.dob.age}</div>
       </div>
     </div>
   )
